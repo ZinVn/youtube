@@ -1,0 +1,6 @@
+video-site/
+│── index.html      # Trang chính
+│── style.css       # File CSS để thiết kế
+│── script.js       # File JavaScript xử lý chức năng
+│── uploads/        # Thư mục lưu trữ video tải lên
+└── videos/         # Thư mục chứa video mẫu
