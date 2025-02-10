@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phát Video từ Server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Phát Video từ Server</h1>
+
+    <!-- Tải video lên -->
+    <input type="file" id="videoUpload" accept="video/*">
+    <button onclick="uploadVideo()">Tải lên</button>
+
+    <!-- Nhập link video từ server -->
+    <input type="text" id="videoURL" placeholder="Nhập URL video từ server">
+    <button onclick="playVideo()">Phát</button>
+
+    <!-- Video Player -->
+    <video id="videoPlayer" controls></video>
+
+    <script src="script.js"></script>
+</body>
+</html>
