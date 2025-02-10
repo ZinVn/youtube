@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Lưu Trữ Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kho Lưu Trữ Video</h1>
+    </header>
+
+    <main>
+        <section class="upload-section">
+            <input type="file" id="videoUpload" accept="video/*">
+            <button onclick="uploadVideo()">Tải lên</button>
+        </section>
+
+        <section class="video-list">
+            <h2>Danh Sách Video</h2>
+            <div id="videoContainer">
+                <!-- Video sẽ được thêm vào đây -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
