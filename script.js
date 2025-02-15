@@ -13,6 +13,6 @@ function uploadVideo() {
     const videoElement = document.createElement('video');
     videoElement.src = videoURL;
     videoElement.controls = true;
-
+    videoElement.muted = false;
     videoContainer.appendChild(videoElement);
 }
